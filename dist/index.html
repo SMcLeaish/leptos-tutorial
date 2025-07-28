@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head><link rel="modulepreload" href="/leptos-tutorial-85dd9d2768c283c3.js" crossorigin="anonymous" integrity="sha384-7n0cvuq3naeoFwYpjc0Ugah8h6JB4JNmxP2mVPJSU+Dx7Yy5VHH+XhuklQIlCnI2"><link rel="preload" href="/leptos-tutorial-85dd9d2768c283c3_bg.wasm" crossorigin="anonymous" integrity="sha384-VCGGlDVgqz7qf9ZahGc6sxqi5NqSdimSOqazucOrp5S69z3oHJcW3OcW0BkVGi9h" as="fetch" type="application/wasm"></head>
-  <body>
+
+<head><link rel="modulepreload" href="/leptos-tutorial-99af9a4fe4f9f3d2.js" crossorigin="anonymous" integrity="sha384-RK4jxoBoM1tFMcMRyG+u3Qoc6N/CDg6jaiY+YWPah6RALIOdu3jg18mecUkA4Gzy"><link rel="preload" href="/leptos-tutorial-99af9a4fe4f9f3d2_bg.wasm" crossorigin="anonymous" integrity="sha384-bmBVvQWOksDagecyQdZHQvKpTsuI/5BckBfyDqAnVnMJtou2eyRskN0XfWScBm9z" as="fetch" type="application/wasm"></head>
+
+<body>
+  <style>
+    .red {
+      color: red;
+    }
+  </style>
+
 <script type="module">
-import init, * as bindings from '/leptos-tutorial-85dd9d2768c283c3.js';
-const wasm = await init({ module_or_path: '/leptos-tutorial-85dd9d2768c283c3_bg.wasm' });
+import init, * as bindings from '/leptos-tutorial-99af9a4fe4f9f3d2.js';
+const wasm = await init({ module_or_path: '/leptos-tutorial-99af9a4fe4f9f3d2_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -142,4 +150,5 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 })()
 </script></body>
+
 </html>
